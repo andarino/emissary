@@ -3,7 +3,7 @@
 AUTHOR: __andar1n0__
 
 auto sender of a compressed folder in your pc
-Emissary is a script that allows you to schedule sending of a zip archive throught the tor network, the sending is protected by password.
+Emissary is a script that allows you to schedule sending of a zip archive throught the tor network, the sending is protected under cryptography.
 '''
 import os
 import zipfile
@@ -39,4 +39,4 @@ def coocuo(*launch):
 if __name__=='__main__':
 	dateComplete =input('[-] schedule the date and hour (22/5/2012-8:32): ')
 	validate_date(dateComplete)
-	#clock to count the time 
+	#clock to count the time (next step) 
