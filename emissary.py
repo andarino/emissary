@@ -1,9 +1,9 @@
-#!/usr/bin/env python3
+#!/usr/bin/python
 '''
-AUTHOR: __and__
+AUTHOR: __andar1n0__
 
 auto sender of a compressed folder in your pc
-Emissary is a script that allows you to schedule a sending of a zip archive throught the tor network, the sending is protected by password
+Emissary is a script that allows you to schedule sending of a zip archive throught the tor network, the sending is protected by password.
 '''
 import os
 import zipfile
